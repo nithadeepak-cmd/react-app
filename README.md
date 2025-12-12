@@ -1,16 +1,106 @@
-# React + Vite
+# React Learning Project (Vite + React)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a hands-on React learning and practice application created using **Vite**.  
+It contains examples of event handling, state management, input handling, form validation, and client-side routing with React Router.  
+The goal of this project is to learn modern React concepts step by step while building multiple simple pages.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📌 Features Covered
 
-## React Compiler
+### ✅ 1. Event Handling
+- Button click events
+- Updating UI based on state
+- Reset actions
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### ✅ 2. Routing (React Router)
+Pages included:
+- Home Page
+- Learn (Events Practice)
+- Input Example Page
+- Registration Form Page
 
-## Expanding the ESLint configuration
+### ✅ 3. Input Handling
+- Controlled components (name, email, age)
+- Live typed value display
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### ✅ 4. Form Validation (Work in Progress)
+- Name validation
+- Email validation
+- Error messages displayed near input fields
+- Will continue building full form
+
+### ✅ 5. Component-Based Structure
+- App.jsx
+- RegistrationForm.jsx
+- InputPage.jsx
+- Learn.jsx
+- Button.jsx
+- Global CSS and SVG assets
+
+---
+
+## 📁 Project Structure
+
+react-app/
+├── public/
+├── src/
+│ ├── App.jsx
+│ ├── App.css
+│ ├── Learn.jsx
+│ ├── InputPage.jsx
+│ ├── RegistrationForm.jsx
+│ ├── Button.jsx
+│ ├── assets/
+│ ├── main.jsx
+│ └── index.css
+├── package.json
+├── vite.config.js
+└── README.md
+
+yaml
+Copy code
+
+---
+
+## ▶️ Running the Project
+
+### Install dependencies:
+npm install
+
+shell
+Copy code
+
+### Start development server:
+npm run dev
+
+yaml
+Copy code
+
+App runs at:
+http://localhost:5173/
+
+yaml
+Copy code
+
+---
+
+## 📌 Status
+This is an **ongoing learning project**.  
+More pages and enhancements (like full form validation, loaders, and more UI improvements) will be added as part of daily learning sessions.
+
+---
+
+## 📚 Learning Goals
+- Understand React fundamentals
+- Build reusable components
+- Work with state and props
+- Implement routing
+- Apply validation logic
+- Practice modern frontend workflows using Vite
+
+---
+
+## 👩‍💻 Author
+**Nitha Deepak**  
+Learning React step by step as part of full-stack development practice.
